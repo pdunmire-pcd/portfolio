@@ -1,0 +1,55 @@
+.section {
+    margin-bottom: 1.5rem;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.body-text {
+    margin: 0.25rem 0;
+    line-height: 1.4;
+}
+
+ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.35rem;
+    line-height: 1.4;
+}
+
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        box-shadow: none;
+        margin: 0;
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+}
