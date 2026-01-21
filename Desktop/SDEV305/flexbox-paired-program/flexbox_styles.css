@@ -1,0 +1,103 @@
+/* 
+TODO: Add styles to match the layout in the image.
+Note: you should only need to use flexbox properties and margin/padding to create the layout.
+*/
+
+header {
+    display: flex;
+    /* align-items:flex-end; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px
+}
+
+/* nav {
+    display: flex;
+} */
+
+.nav-link {
+    /* justify-content: space-around; */
+    /* padding: 10px 0; */
+    margin: 0 20px;
+}
+
+.user-actions {
+    display: flex;
+}
+
+.user-actions > * {
+    margin-left: 15px;  /* Spacing between action buttons */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+    margin: 0 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.card:first-child {
+    margin-left: 0;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.feature-item {
+    flex: 1;
+    text-align: center;
+    padding: 0 50px;
+    margin: 0 25px;
+}
+
+.feature-item:first-child {
+    margin-left: 0;
+}
+
+.feature-item:last-child {
+    margin-right: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+
+
+/* 
+Challenge: Use flexbox in media queries to create a responsive layout 
+*/
+
+
